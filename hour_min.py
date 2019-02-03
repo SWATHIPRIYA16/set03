@@ -1,0 +1,7 @@
+x=input()
+y=input()
+hour1,minute1=x.split(' ')
+hour2,minute2=y.split(' ')
+hour=int(hour1)-int(hour2)
+minute=int(minute1)-int(minute2)
+print(hour ,minute)
